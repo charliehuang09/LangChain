@@ -38,4 +38,15 @@ select document from langchain_pg_embedding
 where lower(document) like '%apriltag%'--like wildcard
 
 --insert into tablea select * from tableb where condition
+-- df4f45ac-95ef-11ee-a2ac-6a85b76223c7
+
+select custom_id from langchain_pg_embedding
+where custom_id = (
+	select custom_id from langchain_pg_embedding
+	where langchain_pg_embedding.uuid = '23773595-fe6f-415b-8632-2f8f9b35a97b'
+)
+
+select custom_id from langchain_pg_embedding
+where langchain_pg_embedding.uuid = '23773595-fe6f-415b-8632-2f8f9b35a97b'
+
 

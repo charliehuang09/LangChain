@@ -1,7 +1,17 @@
-with tmp as(
-	SELECT document, 
-	embedding, 
-	COUNT(*) AS COUNT FROM langchain_pg_embedding
-	GROUP BY document, embedding HAVING COUNT(*) > 1
-)
-SELECT * FROM tmp
+-- select * from langchain_pg_embedding
+-- where(
+-- 	 langchain_pg_embedding.uuid in (
+-- 		 select langchain_pg_embedding.uuid from langchain_pg_embedding
+-- 		 having count(langchain_pg_embedding.document) = 3
+
+-- 	 )
+-- )
+
+
+
+
+
+select langchain_pg_embedding.uuid from langchain_pg_embedding
+having count(langchain_pg_embedding.document) = 3
+
+
