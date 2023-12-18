@@ -1,14 +1,5 @@
 import os
 from tqdm import trange
-def getFiles(path):
-    paths = []
-    for filename in os.listdir(path):
-        if os.path.isfile(os.path.join(path, filename)):
-            paths.append(os.path.join(path, filename))
-        else:
-            paths = paths + getFiles(os.path.join(path, filename))
-            # paths.append(getFiles(os.path.join(path, filename)))
-    return paths
 
 def template(context, prompt):
     template = f"""Answer the question with context: <context>{context}<context> Question: <question>{prompt}<question>
