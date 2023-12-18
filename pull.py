@@ -25,9 +25,9 @@ store = PGVector(
     embedding_function=OpenAIEmbeddings()
 )
 
-prompt = "What are some ways to score in a FRC game?"
+prompt = "How do I get a build server?"
 context = store.similarity_search_with_score(prompt)[0][0].page_content
-prompt = template(context, prompt)
+# prompt = template(context, prompt)
 
 print(prompt)
 

@@ -5,28 +5,28 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores.pgvector import PGVector
 from langchain.docstore.document import Document
+from loader import Loader
 
 from dotenv import load_dotenv
 from key import *
 from misc import *
 from tqdm import tqdm
+from langchain.docstore.document import Document
+from unstructured.partition.pdf import partition_pdf
 import os
 
 paths = getFiles(PATH)
-text_splitter = RecursiveCharacterTextSplitter(chunk_size = 500, chunk_overlap=20)
+text_splitter = RecursiveCharacterTextSplitter(chunk_size = 100, chunk_overlap=0)
 embeddings = OpenAIEmbeddings()
 store = PGVector(
     collection_name=COLLECTION_NAME,
     connection_string=CONNECTION_STRING,
     embedding_function=OpenAIEmbeddings()
 )
-loader = DirectoryLoader(PATH, 
-                         show_progress=True, 
-                         use_multithreading=True,
-                         glob="**/*.[pr][ds][ft]"
-                         )
+loader = Loader(PATH)
 documents = loader.load()
-documents = removeNull(documents)
-documents = removeDots(documents)
+# print(documents)
+# documents = removeNull(documents)
+# documents = removeDots(documents)
 documents = text_splitter.split_documents(documents)
 store.add_documents(documents)
