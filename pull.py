@@ -25,8 +25,8 @@ store = PGVector(
     embedding_function=OpenAIEmbeddings()
 )
 
-prompt = "How do I get a build server?"
-context = store.similarity_search_with_score(prompt)[0][0].page_content
+prompt = "How do I use glob in python to get all files in a directory?"
+# context = store.similarity_search_with_score(prompt)[0][0].page_content
 # prompt = template(context, prompt)
 
 print(prompt)

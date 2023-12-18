@@ -15,8 +15,7 @@ from langchain.docstore.document import Document
 from unstructured.partition.pdf import partition_pdf
 import os
 
-paths = getFiles(PATH)
-text_splitter = RecursiveCharacterTextSplitter(chunk_size = 100, chunk_overlap=0)
+text_splitter = RecursiveCharacterTextSplitter(chunk_size = 500, chunk_overlap=20)
 embeddings = OpenAIEmbeddings()
 store = PGVector(
     collection_name=COLLECTION_NAME,
@@ -25,8 +24,6 @@ store = PGVector(
 )
 loader = Loader(PATH)
 documents = loader.load()
-# print(documents)
-# documents = removeNull(documents)
-# documents = removeDots(documents)
+print(documents)
 documents = text_splitter.split_documents(documents)
 store.add_documents(documents)
