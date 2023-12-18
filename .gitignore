@@ -4,3 +4,4 @@ __pycache__
 .vscode
 playground.ipynb
 context.ipynb
+maxwell.py
