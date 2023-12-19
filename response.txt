@@ -1,0 +1,171 @@
+prompt = "How do I contribute to FRC971?"
+k = number of chunks
+k=0
+FRC971 refers to FIRST Robotics Competition Team 971, Spartan Robotics, which is a high school robotics team based in Mountain View, California. If you're interested in contributing to FRC971, there are several ways you can do so:
+
+1. **Mentorship**: Teams often need experienced individuals who can mentor students in various aspects of robotics, including mechanical design, electrical engineering, programming, strategy, and project management.
+
+2. **Sponsorship**: Financial contributions are crucial for teams to purchase materials, tools, and cover travel expenses for competitions. Companies and individuals can sponsor the team.
+
+3. **Donations**: In-kind donations such as materials, tools, or services are also valuable to the team.
+
+4. **Volunteering**: Events and competitions require a lot of volunteers to run smoothly. You can offer your time during build season or at competitions.
+
+5. **Outreach**: Help the team with outreach by spreading the word about their work, connecting them with potential sponsors, or helping them organize community events.
+
+6. **Alumni Support**: If you are an alumnus of the team, you can stay involved by offering support, advice, or networking opportunities.
+
+To contribute to FRC971, you should reach out to them directly. Here are a few steps you can take:
+
+- **Visit their website**: Go to the FRC971 website to learn more about the team and find contact information.
+
+- **Contact the team**: Look for contact details on their website, which might include an email address, phone number, or a contact form. Reach out to express your interest in contributing.
+
+- **Attend an event**: If you live nearby, attend one of their events or competitions to get a feel for the team's culture and needs.
+
+- **Social Media**: Follow them on social media platforms to stay updated on their needs and events where you can help.
+
+Remember that each FRC team operates independently, so the specific needs and opportunities for contribution may vary from year to year. It's best to communicate directly with the team to find out how you can best support them.
+
+k=1
+
+To contribute to FRC971, you should follow these steps:
+
+1. Visit the [971-Robot-Code](https://github.com/frc971/971-Robot-Code) GitHub repository to familiarize yourself with the project and its codebase. This repository is a mirror of the AOS code.
+
+2. If you find any issues or have feature requests, you can report them using the GitHub issues page on the repository. Keep in mind that this process is subject to change.
+
+3. Contributions to the AOS code are not made directly through GitHub but through a Gerrit server. You can access the Gerrit server at [https://software.frc971.org/gerrit/](https://software.frc971.org/gerrit/).
+
+4. In order to make contributions via the Gerrit server, you must have access granted explicitly. To request access, you need to contact Austin Schuh.
+
+5. Once you have access, you can then follow the standard Gerrit workflow for submitting patches or changes for review.
+
+Remember to check the project's contribution guidelines for any specific requirements or standards you need to follow when making contributions.
+
+k=2
+To contribute to FRC971's AOS code, you should follow these steps:
+
+1. Visit the [971-Robot-Code GitHub repository](https://github.com/frc971/971-Robot-Code) to familiarize yourself with the project and its codebase.
+2. If you have issues or feature requests, you can report them using the GitHub issues page associated with the repository.
+3. Actual code contributions are not made directly through GitHub but through a Gerrit server. The URL for the Gerrit server is [https://software.frc971.org/gerrit/](https://software.frc971.org/gerrit/).
+4. Since access to the Gerrit server is not open to everyone, you will need to obtain explicit permission to contribute.
+5. Contact Austin Schuh to request access to the Gerrit server so that you can start making contributions.
+
+Remember that the process for contributing may be subject to change, so it's a good idea to check the latest information in the repository's contributing guidelines or reach out to the maintainers for the most current instructions.
+
+k=3
+To contribute to FRC971's AOS code, you should follow these steps:
+
+1. Visit the [971-Robot-Code](https://github.com/frc971/971-Robot-Code) GitHub repository to familiarize yourself with the codebase and to report any issues or feature requests using the GitHub issues page.
+2. Contributions to the code are not made directly through GitHub but through a Gerrit server. The Gerrit server for AOS is located at [https://software.frc971.org/gerrit/](https://software.frc971.org/gerrit/).
+3. Access to the Gerrit server is not automatically granted; you must request it explicitly.
+4. To get access to the Gerrit server and start making contributions, you should contact Austin Schuh.
+5. If you are new to the system, you may need to fill out the 971 system access request form to get a Gerrit account.
+
+Please note that the process for contributing may be subject to change, so it's a good idea to check the latest instructions or contact the team for the most current information.
+
+k=4 (defualt)
+To contribute to FRC971's AOS code, you need to follow these steps:
+
+1. Visit the [971-Robot-Code](https://github.com/frc971/971-Robot-Code) GitHub repository to understand the project and its codebase. This repository is a mirror of the AOS code.
+
+2. If you want to report issues or suggest feature requests, you can use the GitHub issues page of the 971-Robot-Code repository. Keep in mind that this process is subject to change.
+
+3. Actual contributions to the AOS code are not made directly through GitHub. Instead, they are made through a Gerrit server. You can access the Gerrit server at [https://software.frc971.org/gerrit/](https://software.frc971.org/gerrit/).
+
+4. To get access to the Gerrit server, you must have your access granted explicitly. For this, you need to contact Austin Schuh, who can provide you with the necessary permissions to make contributions.
+
+5. If you are on a platform that is not compatible with the codebase, you should follow the instructions provided in the documentation to set up access to the build server.
+
+6. To download a copy of the 971 code on your computer, you will need to fill out the 971 system access request form to get a Gerrit account.
+
+By following these steps, you can start contributing to the FRC971 AOS codebase. Remember to familiarize yourself with the project's contribution guidelines and code review process, as open-source projects often have specific standards and practices that contributors are expected to follow.
+
+k=5
+To contribute to FRC971's code, you should follow these steps:
+
+1. Visit the [971-Robot-Code](https://github.com/frc971/971-Robot-Code) GitHub repository to understand the project and its codebase. This repository is a mirror of the AOS code.
+
+2. If you want to report issues or suggest feature requests, you can use the GitHub issues page of the 971-Robot-Code repository. Keep in mind that this process is subject to change.
+
+3. Actual contributions to the code are made through a Gerrit server, which is the main central location for the code. You can access it at [https://software.frc971.org/gerrit/](https://software.frc971.org/gerrit/).
+
+4. To get access to the Gerrit server, you must have your access explicitly granted. You can start by filling out the 971 system access request form to get a Gerrit account. The form is usually pinned in the `#coding` channel on the team's Slack workspace.
+
+5. Ensure that you are fully signed up for the team, have submitted all the required forms, and have passed the safety test. More information about joining the team can be found at [https://frc971.org/join](https://frc971.org/join).
+
+6. After submitting the access request form, wait for Stephan Massalt or another administrator to set up your account and send you the credentials.
+
+7. Once you have your Gerrit account credentials, log in to Gerrit for the first time and add your email address in the settings under [Email Addresses](http://software.frc971.org/gerrit/settings/#EmailAddresses).
+
+8. If you need further assistance or if you are ready to make contributions, you should contact Austin Schuh or another team member as indicated in the contribution guidelines.
+
+By following these steps, you can start contributing to the FRC971 robotics team's codebase.
+
+k=6
+To contribute to FRC971's code, you need to follow these steps:
+
+1. Visit the [971-Robot-Code](https://github.com/frc971/971-Robot-Code) repository on GitHub to understand the project and its codebase. This repository is a mirror of the AOS code.
+
+2. Issues or feature requests can be reported using the GitHub issues page for the 971-Robot-Code repository. Keep in mind that this process is subject to change.
+
+3. Actual contributions to the AOS code are made through a Gerrit server. You can access the Gerrit server at [https://software.frc971.org/gerrit/](https://software.frc971.org/gerrit/).
+
+4. Access to the Gerrit server is not automatic; you must be granted explicit access. To start this process, you should fill out the 971 system access request form. This form is typically pinned in the `#coding` channel on the team's Slack workspace.
+
+5. Ensure that you are fully signed up for the team, have submitted all the required forms, and have passed the safety test. More information about joining the team can be found at [https://frc971.org/join](https://frc971.org/join).
+
+6. After submitting the access request form, wait for Stephan Massalt or another administrator to set up your account and send you the credentials.
+
+7. Once you have your Gerrit account credentials, log in to the Gerrit server for the first time and add your email address in the settings section at [http://software.frc971.org/gerrit/settings/#EmailAddresses](http://software.frc971.org/gerrit/settings/#EmailAddresses).
+
+8. If you need to work on a platform that is not compatible with the codebase, follow the instructions provided to set up access to the build server.
+
+9. After completing these steps, you can start contributing to the code by following the standard Gerrit workflow for code reviews and submissions.
+
+Remember to contact Austin Schuh or another team lead if you have any questions or need assistance with the contribution process.
+
+k=7
+To contribute to FRC971, you should follow these steps:
+
+1. Visit the [971-Robot-Code GitHub repository](https://github.com/frc971/971-Robot-Code) to understand the project and its codebase. This repository is a mirror of the AOS code.
+
+2. If you want to report issues or suggest features, you can use the GitHub issues page of the 971-Robot-Code repository.
+
+3. Actual contributions to the code are made through a Gerrit server, which is the main platform for code reviews and contributions. The Gerrit server can be accessed at [https://software.frc971.org/gerrit/](https://software.frc971.org/gerrit/).
+
+4. To gain access to the Gerrit server, you must have explicit permission. You can contact Austin Schuh to request access for making contributions.
+
+5. Once you have access, you should fill out the 971 system access request form to get a Gerrit account. The form is usually pinned in the `#coding` channel on the team's Slack workspace.
+
+6. Ensure you are fully signed up for the team, have submitted all required forms, and passed the safety test. More information about joining the team can be found at [https://frc971.org/join](https://frc971.org/join).
+
+7. Wait for Stephan Massalt to set up your account and send you the credentials.
+
+8. When you log into Gerrit for the first time, add your email address in the settings at [http://software.frc971.org/gerrit/settings/#EmailAddresses](http://software.frc971.org/gerrit/settings/#EmailAddresses).
+
+9. Go to the [971-Robot-Code project in Gerrit](https://software.frc971.org/gerrit/#/admin/projects/971-Robot-Code) and follow the instructions to download the 971-Robot-Code repository. It is recommended to download the code via SSH using the `clone with commit-msg hook` command, as this will set up your repository for easier contribution.
+
+10. After setting up your environment, you can start working on the code. Make sure to follow the project's contribution guidelines and code review process.
+
+Remember, contributing to open-source projects like FRC971's codebase is not only about submitting code but also about collaborating with the community, participating in discussions, and helping to improve the project.
+
+k=8
+To contribute to FRC971's code, you need to follow these steps:
+
+1. **Get Access to Gerrit**: The contributions to the AOS code for FRC971 are made through a Gerrit server. You will need to request access to this server. You can do this by filling out the 971 system access request form, which is pinned in the `#coding` channel on the team's Slack workspace. Ensure you are fully signed up for the team, have submitted all required forms, and passed the safety test. More information on joining the team can be found at [https://frc971.org/join](https://frc971.org/join).
+
+2. **Wait for Account Setup**: After submitting the access request form, wait for Stephan Massalt to set up your account and send you the credentials.
+
+3. **First-Time Login**: When you log into Gerrit for the first time, make sure to add your email address in the settings at [http://software.frc971.org/gerrit/settings/#EmailAddresses](http://software.frc971.org/gerrit/settings/#EmailAddresses).
+
+4. **Download the Code**: Go to the [971-Robot-Code project in Gerrit](https://software.frc971.org/gerrit/#/admin/projects/971-Robot-Code) and use the command provided to download the 971-Robot-Code repository. It is recommended to download the code via SSH using the `clone with commit-msg hook` command, as this will save you trouble later.
+
+5. **Make Contributions**: Once you have access and have set up your environment, you can start making contributions. Follow the development guidelines provided by the team for making changes and submitting patches.
+
+6. **Use GitHub for Issues**: If you encounter issues or want to request features, you can use the GitHub issues page of the [971-Robot-Code repository](https://github.com/frc971/971-Robot-Code).
+
+7. **Contact for Help**: If you need help or have questions about making contributions, you can contact Austin Schuh or any other designated team member.
+
+Remember that contributing to open-source projects like FRC971's codebase typically involves adhering to their specific contribution guidelines, coding standards, and review processes. Always check with the project's documentation or maintainers for the most accurate and up-to-date information on contributing.

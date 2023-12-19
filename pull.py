@@ -25,14 +25,14 @@ store = PGVector(
     embedding_function=OpenAIEmbeddings()
 )
 
-prompt = "How do I use glob in python to get all files in a directory?"
-# context = store.similarity_search_with_score(prompt)[0][0].page_content
-# prompt = template(context, prompt)
+prompt = "How do I contribute to FRC971?"
+context = store.similarity_search_with_score(prompt, k=8)
+prompt = template(context, prompt)
 
-print(prompt)
+print(prompt + "\n\n")
+# exit(0)
 
 response = GPT4(prompt, client)
-
 print(response.choices[0].message.content)
 
 
